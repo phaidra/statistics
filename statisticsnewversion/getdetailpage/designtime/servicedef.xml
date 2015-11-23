@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="getdetailpage" class="getdateilpage" CRUDService="false" type="JavaService" springFile="getdetailpage.spring.xml">
-    <operation name="sampleJavaOperation">
-        <return typeRef="java.lang.String" isList="false"/>
-    </operation>
-    <dataobjects/>
-</service>
