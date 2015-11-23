@@ -1,0 +1,42 @@
+{
+	"methods": [{
+		"name": "main",
+		"operationType": null,
+		"parameters": [{
+			"name": "instanceis",
+			"type": "int"
+		}, {
+			"name": "mycmodelin",
+			"type": "java.lang.String"
+		}, {
+			"name": "mypidin",
+			"type": "java.lang.String"
+		}, {
+			"name": "myownerin",
+			"type": "java.lang.String"
+		}, {
+			"name": "myredcode",
+			"type": "java.lang.String"
+		}, {
+			"name": "myaccesscode",
+			"type": "java.lang.String"
+		}, {
+			"name": "myyear",
+			"type": "java.lang.String"
+		}, {
+			"name": "mystate",
+			"type": "java.lang.String"
+		}, {
+			"name": "mycountry",
+			"type": "java.lang.String"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "sampleJavaOperation",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "java.lang.String"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "invgetcmodels.json"
+}

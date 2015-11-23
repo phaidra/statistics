@@ -1,0 +1,12 @@
+{
+	"__metaData": {
+		"service_invalid_getcreationmonth": false, 
+		"service_invalid_detailpage": false, 
+		"service_invalid_getcreation": false, 
+		"service_invalid_getcreationday": false, 
+		"service_invalid_invtopownerobjects": false, 
+		"service_invalid_invtopownerobjectspercmodel": false, 
+		"service_invalid_invtopownerobjectsperdate": false, 
+		"service_invalid_getviews": false
+	}
+}

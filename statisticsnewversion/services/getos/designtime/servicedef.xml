@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="getos" class="getos" CRUDService="false" type="JavaService" springFile="getos.spring.xml">
+    <operation name="main">
+        <parameter name="myyear" typeRef="int" isList="false"/>
+        <parameter name="mycontentmodel" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mycountry" typeRef="java.lang.String" isList="false"/>
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <operation name="sampleJavaOperation">
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <dataobjects/>
+</service>

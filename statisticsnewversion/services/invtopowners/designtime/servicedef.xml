@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="invtopowners" class="invtopowners" CRUDService="false" type="JavaService" springFile="invtopowners.spring.xml">
+    <operation name="main">
+        <parameter name="myday" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mymonth" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mypidin" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myinstance" typeRef="int" isList="false"/>
+        <parameter name="myownerin" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mycontentmodel" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myredcode" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myaccesscode" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myyear" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mycountry" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mystate" typeRef="java.lang.String" isList="false"/>
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <operation name="sampleJavaOperation">
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <dataobjects/>
+</service>
