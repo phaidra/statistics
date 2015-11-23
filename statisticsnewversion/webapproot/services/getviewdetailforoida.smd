@@ -1,0 +1,48 @@
+{
+	"methods": [{
+		"name": "main",
+		"operationType": null,
+		"parameters": [{
+			"name": "myowner",
+			"type": "java.lang.String"
+		}, {
+			"name": "myaccesscode",
+			"type": "java.lang.String"
+		}, {
+			"name": "mycmodel",
+			"type": "java.lang.String"
+		}, {
+			"name": "myday",
+			"type": "java.lang.String"
+		}, {
+			"name": "mymonth",
+			"type": "java.lang.String"
+		}, {
+			"name": "myredcode",
+			"type": "java.lang.String"
+		}, {
+			"name": "mystate",
+			"type": "java.lang.String"
+		}, {
+			"name": "mypid",
+			"type": "java.lang.String"
+		}, {
+			"name": "mytype",
+			"type": "java.lang.String"
+		}, {
+			"name": "instanceis",
+			"type": "int"
+		}, {
+			"name": "myyear",
+			"type": "java.lang.String"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "sampleJavaOperation",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "java.lang.String"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "getviewdetailforoida.json"
+}

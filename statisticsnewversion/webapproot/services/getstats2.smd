@@ -1,0 +1,18 @@
+{
+	"methods": [{
+		"name": "main",
+		"operationType": null,
+		"parameters": [{
+			"name": "myyear",
+			"type": "int"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "sampleJavaOperation",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "java.lang.String"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "getstats2.json"
+}
