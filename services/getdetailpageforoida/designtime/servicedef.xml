@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="getdetailpageforoida" class="getdetailpageforoida" CRUDService="false" type="JavaService" springFile="getdetailpageforoida.spring.xml">
+    <operation name="main">
+        <parameter name="myowner" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myaccesscode" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mycmodel" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myday" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mymonth" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myinstanceis1" typeRef="int" isList="false"/>
+        <parameter name="myredcode" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mystate" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mypid" typeRef="java.lang.String" isList="false"/>
+        <parameter name="mytype" typeRef="java.lang.String" isList="false"/>
+        <parameter name="myyear" typeRef="java.lang.String" isList="false"/>
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <operation name="sampleJavaOperation">
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <dataobjects/>
+</service>

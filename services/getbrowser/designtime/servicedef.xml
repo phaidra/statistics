@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="getbrowser" class="getbrowser" CRUDService="false" type="JavaService" springFile="getbrowser.spring.xml">
+    <operation name="main">
+        <parameter name="myyear" typeRef="int" isList="false"/>
+        <parameter name="mycountry" typeRef="java.lang.String" isList="false"/>
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <operation name="sampleJavaOperation">
+        <return typeRef="java.lang.String" isList="false"/>
+    </operation>
+    <dataobjects/>
+</service>
