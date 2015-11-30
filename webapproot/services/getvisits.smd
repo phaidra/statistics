@@ -1,0 +1,24 @@
+{
+	"methods": [{
+		"name": "main",
+		"operationType": null,
+		"parameters": [{
+			"name": "mypid",
+			"type": "java.lang.String"
+		}, {
+			"name": "mytype",
+			"type": "java.lang.String"
+		}, {
+			"name": "myyear",
+			"type": "int"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "sampleJavaOperation",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "java.lang.String"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "getvisits.json"
+}
